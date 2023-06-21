@@ -1,0 +1,95 @@
+/*Definição das variaveis do CSS*/
+.body {
+    --primary-color: rgb (255 0 0);
+    --secondary-color: rgb (0 255 0);
+    --tertiary-color: rgb (0 0 255);
+    --back-color: hsl(0, 4%, 59%);
+}
+
+* {
+    background: var(--back-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+main {
+     display: flex;
+     justify-content: center;
+     width: 80%;
+     margin: 0 auto;
+}
+
+.box {
+    width: 700px;
+    height: 920px;
+    border: 1px solid;
+    background: gold;
+    margin-bottom: 20px;
+    text-align:start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+p2 {
+    color: white;
+}
+.img {
+    height: 601px;
+    width: 625px;
+}
+
+.img1 {
+    height: 601px;
+    width: 625px;
+}
+
+.img2 {
+    height: 601px;
+    width: 625px;
+}
+
+.img3 {
+    height: 601px;
+    width: 625px;
+}
+
+.img4 {
+    height: 601px;
+    width: 625px;
+}
+
+#felipe {
+    background: rgb(255, 251, 4);
+}
+#bruno {
+    background: rgb(255, 0, 119);
+}
+#mozka {
+    background: rgb(61, 44, 24);
+}
+#cabelo {
+    background: rgb(75, 75, 69);
+}
+#marcel {
+    background: rgb(255, 0, 0);
+}
+#marcella {
+    background: rgb(206, 117, 15);
+}
+#limda {
+    background: rgb(0, 2, 109);
+}
+#buru {
+    background: rgb(6, 221, 23);
+}
+#vi {
+    background: rgb(45, 219, 182);
+}
